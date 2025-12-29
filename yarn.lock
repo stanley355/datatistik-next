@@ -1240,6 +1240,18 @@
   dependencies:
     tslib "^2.8.0"
 
+"@t3-oss/env-core@0.13.10":
+  version "0.13.10"
+  resolved "https://registry.yarnpkg.com/@t3-oss/env-core/-/env-core-0.13.10.tgz#ba6b90498d7f3bb72662c842ec8015caced27210"
+  integrity sha512-NNFfdlJ+HmPHkLi2HKy7nwuat9SIYOxei9K10lO2YlcSObDILY7mHZNSHsieIM3A0/5OOzw/P/b+yLvPdaG52g==
+
+"@t3-oss/env-nextjs@^0.13.10":
+  version "0.13.10"
+  resolved "https://registry.yarnpkg.com/@t3-oss/env-nextjs/-/env-nextjs-0.13.10.tgz#85dfccf9126fc97b5eb55a913b71d0d9cb2e1357"
+  integrity sha512-JfSA2WXOnvcc/uMdp31paMsfbYhhdvLLRxlwvrnlPE9bwM/n0Z+Qb9xRv48nPpvfMhOrkrTYw1I5Yc06WIKBJQ==
+  dependencies:
+    "@t3-oss/env-core" "0.13.10"
+
 "@tailwindcss/node@4.1.18":
   version "4.1.18"
   resolved "https://registry.yarnpkg.com/@tailwindcss/node/-/node-4.1.18.tgz#9863be0d26178638794a38d6c7c14666fb992e8a"
@@ -1348,6 +1360,18 @@
     "@tailwindcss/oxide" "4.1.18"
     postcss "^8.4.41"
     tailwindcss "4.1.18"
+
+"@tanstack/query-core@5.90.14":
+  version "5.90.14"
+  resolved "https://registry.yarnpkg.com/@tanstack/query-core/-/query-core-5.90.14.tgz#4c45ab5f41a45a051001bae09bb155b021bf4e87"
+  integrity sha512-/6di2yNI+YxpVrH9Ig74Q+puKnkCE+D0LGyagJEGndJHJc6ahkcc/UqirHKy8zCYE/N9KLggxcQvzYCsUBWgdw==
+
+"@tanstack/react-query@^5.90.14":
+  version "5.90.14"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-query/-/react-query-5.90.14.tgz#fff7e5e083c6dbe18fd0b2837d3f6174615f0c06"
+  integrity sha512-JAMuULej09hrZ14W9+mxoRZ44rR2BuZfCd6oKTQVNfynQxCN3muH3jh3W46gqZNw5ZqY0ZVaS43Imb3dMr6tgw==
+  dependencies:
+    "@tanstack/query-core" "5.90.14"
 
 "@tybys/wasm-util@^0.10.0", "@tybys/wasm-util@^0.10.1":
   version "0.10.1"
@@ -4054,7 +4078,7 @@ yocto-queue@^0.1.0:
   resolved "https://registry.yarnpkg.com/zod-validation-error/-/zod-validation-error-4.0.2.tgz#bc605eba49ce0fcd598c127fee1c236be3f22918"
   integrity sha512-Q6/nZLe6jxuU80qb/4uJ4t5v2VEZ44lzQjPDhYJNztRQ4wyWc6VF3D3Kb/fAuPetZQnhS3hnajCf9CsWesghLQ==
 
-"zod@^3.25.0 || ^4.0.0":
+"zod@^3.25.0 || ^4.0.0", zod@^4.2.1:
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/zod/-/zod-4.2.1.tgz#07f0388c7edbfd5f5a2466181cb4adf5b5dbd57b"
   integrity sha512-0wZ1IRqGGhMP76gLqz8EyfBXKk0J2qo2+H3fi4mcUP/KtTocoX08nmIAHl1Z2kJIZbZee8KOpBCSNPRgauucjw==

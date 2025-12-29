@@ -1,0 +1,6 @@
+export enum WebsiteCategory {
+  GOVERNMENT = "GOVERNMENT",
+  ECONOMY = "ECONOMY",
+  STATISTICS = "STATISTICS",
+  TOURISM = "TOURISM",
+}
